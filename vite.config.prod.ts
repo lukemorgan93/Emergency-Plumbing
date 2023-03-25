@@ -14,6 +14,7 @@ export default defineConfig({
     // Generate sourcemaps for the output files
     sourcemap: true,
   },
+ 
   plugins: [
     // Use the React plugin for Vite
     react(),

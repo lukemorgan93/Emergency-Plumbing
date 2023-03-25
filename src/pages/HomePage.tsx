@@ -37,13 +37,13 @@ const reviews: Review[] = [
 const HomePage: React.FC = () => {
   return (
     <>
-      <head>
+      {/* <head>
         <meta
           name="trustpilot-one-time-domain-verification-id"
           content="5d2102cf-f776-420d-b9ce-f459f46354f5"
         />
-      </head>
-
+      </head> */}
+      {/* 
       <Helmet htmlAttributes={{ 'data-react': '' }}>
         <title>Emergency Plumber - Fast, Reliable & Affordable Service</title>
         <meta
@@ -62,7 +62,7 @@ const HomePage: React.FC = () => {
           name="trustpilot-one-time-domain-verification-id"
           content="5d2102cf-f776-420d-b9ce-f459f46354f5"
         />
-      </Helmet>
+      </Helmet> */}
       <Box>
         <Flex p="4">
           <Heading size="lg">Emergency Plumber</Heading>
