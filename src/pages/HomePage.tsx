@@ -25,6 +25,7 @@ const reviews: Review[] = [
   },
   // add more reviews here
 ];
+require('react-helmet/lib/HelmetConstants.js').HELMET_ATTRIBUTE='data-react';
 
 
 const HomePage: React.FC = () => {
