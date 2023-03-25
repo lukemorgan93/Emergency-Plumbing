@@ -1,37 +1,50 @@
 import {
-  Box, Button, Flex, Heading, HStack,
-  Image, Link, Spacer, Text,
-  VStack
-} from '@chakra-ui/react';
-import React from 'react';
-import { Helmet } from 'react-helmet';
+  Box,
+  Button,
+  Flex,
+  HStack,
+  Heading,
+  Image,
+  Link,
+  Spacer,
+  Text,
+  VStack,
+} from '@chakra-ui/react'
+import React from 'react'
+import { Helmet } from 'react-helmet'
 
 interface Review {
-  author: string;
-  content: string;
-  rating: number;
+  author: string
+  content: string
+  rating: number
 }
 
 const reviews: Review[] = [
   {
-    author: "John Doe",
-    content: "Great service, prompt response and professional workmanship!",
-    rating: 5
+    author: 'John Doe',
+    content: 'Great service, prompt response and professional workmanship!',
+    rating: 5,
   },
   {
-    author: "Jane Smith",
-    content: "The plumber arrived quickly and fixed my leaky faucet in no time. Highly recommended!",
-    rating: 4.5
+    author: 'Jane Smith',
+    content:
+      'The plumber arrived quickly and fixed my leaky faucet in no time. Highly recommended!',
+    rating: 4.5,
   },
   // add more reviews here
-];
-require('react-helmet/lib/HelmetConstants.js').HELMET_ATTRIBUTE='data-react';
-
+]
 
 const HomePage: React.FC = () => {
   return (
     <>
-      <Helmet>
+      <head>
+        <meta
+          name="trustpilot-one-time-domain-verification-id"
+          content="5d2102cf-f776-420d-b9ce-f459f46354f5"
+        />
+      </head>
+
+      <Helmet htmlAttributes={{ 'data-react': '' }}>
         <title>Emergency Plumber - Fast, Reliable & Affordable Service</title>
         <meta
           name="description"
@@ -41,8 +54,14 @@ const HomePage: React.FC = () => {
           name="keywords"
           content="emergency plumber, 24/7 plumber, plumbing services, affordable plumbing"
         />
-        <meta name="trustpilot-one-time-domain-verification-id" content="5d2102cf-f776-420d-b9ce-f459f46354f5"/>
-        <meta name="trustpilot-one-time-domain-verification-id" content="5d2102cf-f776-420d-b9ce-f459f46354f5"/>
+        <meta
+          name="trustpilot-one-time-domain-verification-id"
+          content="5d2102cf-f776-420d-b9ce-f459f46354f5"
+        />
+        <meta
+          name="trustpilot-one-time-domain-verification-id"
+          content="5d2102cf-f776-420d-b9ce-f459f46354f5"
+        />
       </Helmet>
       <Box>
         <Flex p="4">
@@ -104,7 +123,8 @@ const HomePage: React.FC = () => {
         </Box>
 
         <Text fontSize="sm" marginBottom={4}>
-          © {new Date().getFullYear()} Emergency Plumber 24/7. All rights reserved.
+          © {new Date().getFullYear()} Emergency Plumber 24/7. All rights
+          reserved.
         </Text>
         <Box bg="gray.200" py={12} px={6}>
           <VStack spacing={6} textAlign="center" maxW="800px" mx="auto">
@@ -127,7 +147,7 @@ const HomePage: React.FC = () => {
         </Box>
       </Box>
     </>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
