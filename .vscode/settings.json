@@ -1,0 +1,101 @@
+{
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "switch:command",
+    "push:command",
+    "push:menu",
+    "stash-push:command"
+  ],
+  "gitlens.views.repositories.files.layout": "list",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liquid.format": true,
+  "cmake.configureOnOpen": true,
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "gitlens.codeLens.scopes": ["document"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.runtime": "",
+  "eslint.alwaysShowStatus": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+  },
+  "editor.largeFileOptimizations": false,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.renderSideBySide": false,
+  "thunder-client.codeSnippetLanguage": "js-axios",
+  "thunder-client.htmlView": "Preview",
+  "window.autoDetectColorScheme": true,
+  "debug.inlineValues": "on",
+  "tabnine.experimentalAutoIØmports": true,
+  "workbench.iconTheme": "vscode-icons",
+  "git.ignoreRebaseWarning": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "ms-vsliveshare.vsliveshare"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.language.colorizedBracketPairs": [[]],
+  "colorize.languages": ["javascript", "typescript"],
+  "workbench.colorTheme": "Default Light+",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
