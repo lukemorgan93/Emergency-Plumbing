@@ -1,8 +1,8 @@
 import { useInfiniteQuery, useMutation, useQuery } from '@tanstack/react-query'
 import { useContext } from 'react'
+import { SERVER } from '~/api/settings'
 
 import { ToastContext } from '../context/ToastProvider'
-import { SERVER } from '../settings'
 import { get, patch, post, put, remove } from './index'
 
 type useHooksProps = {

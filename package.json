@@ -6,7 +6,7 @@
   "scripts": {
     "audit": "audit-ci --config .audit-ci.json",
     "dev": "vite",
-    "build": "tsc -p tsconfig.prod.json && vite build",
+    "build": "tsc -p tsconfig.prod.json && vite build --config vite.config.prod.js",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -28,10 +28,11 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@swc/core": "^1.3.36",
-    "@tanstack/react-query": "^4.28.0",
+    "@tanstack/react-query": "^4.24.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
+    "@types/react-query": "^1.2.9",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "audit-ci": "^6.6.1",
@@ -77,6 +78,7 @@
     "happy-dom": "^8.9.0",
     "husky": "^8.0.0",
     "jsdom": "^21.1.0",
+    "sass": "^1.58.3",
     "tsconfig-paths-webpack-plugin": "^4.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
@@ -86,6 +88,7 @@
   "resolutions": {
     "glob-parent": ">=5.1.2",
     "trim-newlines": ">=3.0.1",
-    "trim": ">=0.0.3"
+    "trim": ">=0.0.3",
+    "webpack": ">=5.76.0"
   }
 }

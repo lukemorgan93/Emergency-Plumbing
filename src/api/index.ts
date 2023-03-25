@@ -1,5 +1,6 @@
 import axios from 'axios'
-import { SERVER } from '~/settings'
+
+import { SERVER } from './settings'
 
 axios.interceptors.response.use(
   response => response,
