@@ -1,16 +1,9 @@
-import React from 'react';
 import {
-  Box,
-  Heading,
-  Text,
-  VStack,
-  Button,
-  Link,
-  HStack,
-  Image,
-  Flex,
-  Spacer,
+  Box, Button, Flex, Heading, HStack,
+  Image, Link, Spacer, Text,
+  VStack
 } from '@chakra-ui/react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
 interface Review {
@@ -47,6 +40,7 @@ const HomePage: React.FC = () => {
           name="keywords"
           content="emergency plumber, 24/7 plumber, plumbing services, affordable plumbing"
         />
+        <meta name="trustpilot-one-time-domain-verification-id" content="5d2102cf-f776-420d-b9ce-f459f46354f5"/>
         <meta name="trustpilot-one-time-domain-verification-id" content="5d2102cf-f776-420d-b9ce-f459f46354f5"/>
       </Helmet>
       <Box>
