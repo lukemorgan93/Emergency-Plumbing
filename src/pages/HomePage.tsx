@@ -11,7 +11,6 @@ import {
   VStack,
 } from '@chakra-ui/react'
 import React from 'react'
-import { Helmet } from 'react-helmet'
 
 interface Review {
   author: string
