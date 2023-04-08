@@ -18,7 +18,7 @@ import { TrustPilot } from './../components/TrustPilot/TrustPilot'
 const HomePage: React.FC = () => {
   return (
     <>
-      <Box paddingX={"80px"}>
+      <Box paddingX={"88px"}>
         <Flex p="4">
           <Heading size="lg">All Emergency Plumbing</Heading>
           <Spacer />
