@@ -9,8 +9,14 @@ import {
   Spacer,
   Text,
   VStack,
+  SimpleGrid,
 } from '@chakra-ui/react'
 import React from 'react'
+import Emergencies from '~/components/Emergencies/Emergencies'
+import FrequentlyAskedQuestions from '~/components/FrequentlyAskedQuestions/FrequentlyAskedQuestions'
+import Header from '~/components/Header/Header'
+import MainImage from '~/components/MainImage/MainImage'
+import MainText from '~/components/MainText/MainText'
 
 import { Reviews } from '../components/Reviews/Reviews'
 import { TrustPilot } from './../components/TrustPilot/TrustPilot'
@@ -19,7 +25,22 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Box paddingX={"80px"}>
-        <Flex p="4">
+<Header></Header>
+<MainImage></MainImage>
+<MainText></MainText>
+<SimpleGrid columns={3} spacing={"16px"} gap={"16px"} padding={"16px"} width={"100%"} justifyItems={"center"}>
+<Emergencies></Emergencies>
+<Emergencies></Emergencies>
+<Emergencies></Emergencies>
+<Emergencies></Emergencies>
+<Emergencies></Emergencies>
+<Emergencies></Emergencies>
+</SimpleGrid>
+<FrequentlyAskedQuestions></FrequentlyAskedQuestions>
+
+
+
+        {/* <Flex p="4">
           <Heading size="lg">All Emergency Plumbing</Heading>
           <Spacer />
           <HStack spacing="4">
@@ -81,7 +102,7 @@ const HomePage: React.FC = () => {
               Call Now: 1800 123 4567
             </Button>
           </VStack>
-        </Box>
+        </Box> */}
       </Box>
     </>
   )
